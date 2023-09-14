@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Replace with your React app's URL
+    origin: "https://live-chat-app-frontend-six.vercel.app/", // Replace with your React app's URL
     methods: ["GET", "POST"],
   },
 });
